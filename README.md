@@ -1,6 +1,6 @@
-# **Metric Learning for 3D Robotic Welding Path Anomaly Detection**
+# **Prototypical Neural Networks Learning for 3D Robotic Welding Path Anomaly Detection**
 
-An end-to-end deep metric learning framework implementing **Prototypical Networks (Few-Shot Metric Learning)** to detect structural wear and operational anomalies in industrial 6-DOF robotic welding arms. This document outlines the step-by-step mathematical, architectural, and visual pipeline of the system as it executes chronologically.
+An end-to-end deep metric learning framework implementing **Prototypical Networks (Few-Shot Meta Learning)** to detect structural wear and operational anomalies in industrial 6-DOF robotic welding arms. This document outlines the step-by-step mathematical, architectural, and visual pipeline of the system as it executes chronologically.
 
 ## **📌 Project Overview**
 
