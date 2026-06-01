@@ -163,7 +163,7 @@ Reducing the 128D latent representation space to 3D highlights the geometric par
 * **Black Crosses ('x'):** Anomalous trajectories fall far outside the boundary of any normal task clusters, indicating clear out-of-distribution detection.
 
 ![Latent space 3D t-SNE — 20 normal scenario clusters (colored spheres) vs. anomalies (black crosses)](assets/tsne_3d.png)
-
+![Latent space 3D t-SNE — spinning view](assets/tsne_3d_spin.gif)
 ## **🗃️ Repository Structure**
 
 ├── updated\_3d\_simulation.py   \# Unified 6-DOF simulation, training, & saving pipeline  
