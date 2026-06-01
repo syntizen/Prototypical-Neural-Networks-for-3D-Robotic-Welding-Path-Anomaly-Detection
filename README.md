@@ -139,21 +139,6 @@ Reducing the 128D latent representation space to 3D highlights the geometric par
 * **Colored Spheres (Scenarios 0-19):** Normal operational profiles form dense, well-segregated clusters.  
 * **Black Crosses ('x'):** Anomalous trajectories fall far outside the boundary of any normal task clusters, indicating clear out-of-distribution detection.
 
-## **🗃️ Repository Structure**
-
-├── updated\_3d\_simulation.py   \# Unified 6-DOF simulation, training, & saving pipeline  
-├── README.md                  \# Project documentation (You are here)  
-├── requirements.txt           \# Python dependency requirements  
-├── assets/                    \# Auto-saved visualization outputs (Git-tracked)  
-│   ├── one\_per\_scenario.png   \# 3D Normal scenario paths  
-│   ├── anomaly\_examples.png   \# 3D Simulated wear paths  
-│   ├── anomaly\_evaluation.png \# Evaluation metrics (ROC / Histogram)  
-│   └── tsne\_3d.png            \# Latent space 3D t-SNE plot  
-└── data/                      \# Auto-saved compressed numpy datasets  
-    ├── weld\_synth\_train.npz  
-    ├── weld\_synth\_test\_anom.npz  
-    └── weld\_prototypes.npy
-
 ## **📄 License**
 
 This project is licensed under the MIT License \- see the [LICENSE](http://docs.google.com/LICENSE) file for details.
